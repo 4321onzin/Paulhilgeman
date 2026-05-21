@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paul Hilgeman</title>
+    <meta
+      name="description"
+      content="Website van Paul Hilgeman, gebaseerd op het publieke Instagram-profiel @hilgemanpaul."
+    />
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Paul Hilgeman home">
+        <img src="assets/profile.jpg" alt="" class="brand-avatar" />
+        <span>Paul Hilgeman</span>
+      </a>
+      <nav aria-label="Hoofdnavigatie">
+        <a href="#werk">Werk</a>
+        <a href="#over">Over</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">@hilgemanpaul</p>
+          <h1 id="hero-title">Paul Hilgeman</h1>
+          <p class="lead">
+            Een visuele startpagina met ruimte voor fotografie, projecten en contact. Gebouwd als eerste
+            concept op basis van het publieke Instagram-profiel.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://www.instagram.com/hilgemanpaul/" rel="noreferrer" target="_blank">
+              Bekijk Instagram
+            </a>
+            <a class="button secondary" href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="feature-photo" aria-label="Uitgelichte profielafbeelding">
+          <img src="assets/profile.jpg" alt="Profielfoto van Paul Hilgeman" />
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Instagram profielinformatie">
+        <div>
+          <strong>377</strong>
+          <span>volgers</span>
+        </div>
+        <div>
+          <strong>417</strong>
+          <span>volgend</span>
+        </div>
+        <div>
+          <strong>325</strong>
+          <span>posts</span>
+        </div>
+      </section>
+
+      <section id="werk" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Beelden en projecten</h2>
+        </div>
+        <div class="photo-grid" aria-label="Fotoplekken">
+          <article class="photo-slot slot-a">
+            <span>Foto 01</span>
+          </article>
+          <article class="photo-slot slot-b">
+            <span>Foto 02</span>
+          </article>
+          <article class="photo-slot slot-c">
+            <span>Foto 03</span>
+          </article>
+          <article class="photo-slot slot-d">
+            <span>Foto 04</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="over" class="section split">
+        <div>
+          <p class="eyebrow">Over</p>
+          <h2>Een rustige basis die later gevuld kan worden</h2>
+        </div>
+        <p>
+          Instagram geeft zonder login weinig inhoud door. Deze eerste versie gebruikt daarom alleen publiek
+          zichtbare profielinformatie en laat bewust ruimte voor echte foto's, korte teksten en eventuele diensten
+          of projecten.
+        </p>
+      </section>
+
+      <section id="contact" class="contact-band">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Volg of neem contact op via Instagram</h2>
+        </div>
+        <a class="button primary" href="https://www.instagram.com/hilgemanpaul/" rel="noreferrer" target="_blank">
+          Naar @hilgemanpaul
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
