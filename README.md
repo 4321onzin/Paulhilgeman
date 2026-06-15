@@ -1,13 +1,24 @@
-# Paul Hilgeman
+# HMkasten
 
-Eerste statische website voor @hilgemanpaul.
+Statische website voor HMkasten, gericht op maatwerkkasten en Raffito-kasten.
 
 ## Status
 
-- Gebaseerd op publiek zichtbare Instagram-profielinformatie.
-- Profielfoto staat lokaal in assets/profile.jpg.
-- De fotogrid gebruikt tijdelijke visuele placeholders totdat er echte foto's zijn aangeleverd.
+- Single-page website met secties voor kasttypes, samenstellen, werkwijze, Profireno-koppeling en aanvraag.
+- Hero-afbeelding staat lokaal in `assets/hmkasten-maatwerkkast-hero.jpg`.
+- Het aanvraagformulier is voorbereid voor verzending via een formulierdienst.
+
+## Formulier koppelen
+
+Vervang in `index.html` de placeholder `https://formspree.io/f/FORM_ID_HIER` door de echte endpoint van de gekozen formulierdienst.
+
+Let bij de formulierdienst op ondersteuning voor:
+
+- verzending naar het gewenste e-mailadres;
+- bestandsuploads voor foto's van de ruimte;
+- spambeveiliging of captcha;
+- privacy/AVG-instellingen voor ingezonden foto's en contactgegevens.
 
 ## Volgende inhoud
 
-Vervang de placeholders door 6-12 beelden en voeg eventueel een korte bio, diensten/projecten en contactgegevens toe.
+Voeg later echte projectfoto's, socialmedia-links en definitieve contactgegevens toe.
